@@ -1,0 +1,138 @@
+/* CSS Document */
+.contact{
+	width: 100%;
+}
+
+.search{
+	border-top: #2A80B9 10px solid;
+	min-height: 550px;
+	background-image:url(../images/Maravilhoso-Interior-da-Sala-de-Estar.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-top: 8%;
+	position: relative;
+	
+}
+.search-detail{
+	border-top: #2A80B9 10px solid;
+	height: 35%;
+	background-image:url(../images/Maravilhoso-Interior-da-Sala-de-Estar.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-top: 6%;
+	position: relative;
+	
+}
+
+.product-slide{
+	height: 50%;
+}
+.map{
+	width: 100%;
+}
+.teste{
+	overflow: hidden;	
+	float: none;
+    margin: 0 auto;
+}
+.float-search{
+	padding: 10px;
+	background-color: rgba(255,255,255,0.94);
+}
+.float-search:hover{
+	border-radius: 5px;
+}
+/* Style the tab */
+.w3-bar {
+    overflow: hidden;
+	width: 40%;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.w3-container{
+	width: 40%;
+}
+
+/* Style the buttons that are used to open the tab content */
+.w3-bar button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 20px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.w3-bar button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.w3-bar button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.input[type=text] {
+	width: 80%;
+	border: 2px solid #EDEDED;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	background-image: url(../images/houses/search-icon.png);
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	-webkit-box-shadow: 2px 2px 2px #9A9A9A;
+	box-shadow: 2px 2px 2px #9A9A9A;
+}
+
+.input[type=text]:focus {
+    width: 100%;
+}
+.page-login{
+	background:rgba(20,141,255,1.00);
+}
+.login{
+	float: none;
+	margin-top: 10%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10%;
+	border-radius: 3px;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,0.93) 0%,rgba(255,255,255,0.87) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,0.93) 0%,rgba(255,255,255,0.87) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,0.93) 0%,rgba(255,255,255,0.87) 100%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,0.93) 0%,rgba(255,255,255,0.87) 100%);
+}
+.menu{
+	font-family: "Open Sans", Arial, sans-serif;
+	background:rgba(255,255,255,1.00);
+	border-bottom: 5px solid #2a80b9;
+}
+.thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+
+.botao {
+	background-color: rgba(255,255,255,1.00);
+	
+}
+
